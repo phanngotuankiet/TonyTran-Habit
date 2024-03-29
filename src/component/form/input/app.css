@@ -1,0 +1,29 @@
+.input-container {
+  width: auto;
+  height: 60px;
+  border-radius: 12px;
+  background-color: #fdfdfd;
+  border: 0.5px solid #e0e0e0;
+
+  display: flex;
+  align-items: center;
+  padding: 0 12px;
+}
+
+.input-field {
+  flex: 1;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  border: none;
+  &::placeholder {
+    color: #1e1c1c;
+  }
+  &:hover {
+  }
+}
+
+/* .icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+} */

@@ -1,0 +1,113 @@
+body {
+}
+.container-day-of-week {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+.day-of-week {
+  margin-left: 20px;
+  border-radius: 12px;
+  width: 48px;
+  height: 68px;
+  padding: 5px;
+  background-color: #deb5e4;
+}
+.week {
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  width: 40px;
+  margin: 0 auto;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-daily {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+
+  height: auto;
+}
+.container-img {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+}
+.daily {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  border-color: aqua;
+  transition: 0.2s ease-in-out;
+}
+
+.selected-all {
+  background-color: #ba68c8;
+}
+
+.selected-daily {
+  background-color: #f5f5f5;
+}
+
+.container-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.icon {
+  height: 40px;
+  width: 40px;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+}
+.icon:hover {
+  cursor: pointer;
+}
+.container-btn {
+  display: grid;
+  place-items: end;
+  cursor: pointer;
+}
+.container-icon {
+  margin-bottom: 50px;
+}
+.week-icon {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  align-items: center;
+  margin-right: 20px;
+}
+.week-icon:hover {
+}
+.suggestion-actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.suggestion-action {
+  font-size: 14px;
+  color: #333;
+
+  display: flex;
+  align-items: center;
+  background-color: #bde0fe;
+  border-radius: 12px;
+  height: 60px;
+  cursor: pointer;
+}

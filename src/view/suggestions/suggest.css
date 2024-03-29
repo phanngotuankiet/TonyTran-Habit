@@ -1,0 +1,62 @@
+.suggestions-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Adjust width as needed */
+}
+
+.suggestion-item {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  background-color: #f8f8f8;
+  height: 200px;
+  border-radius: 8px;
+  margin-bottom: 12x; /* Adjust spacing between items */
+  padding: 16px; /* Adjust padding if needed */
+}
+
+.suggestion-title {
+  font-size: 18px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 8px; /* Add some space below the title */
+}
+
+.suggestion-description {
+  font-size: 14px;
+  color: #757575;
+  margin-bottom: 1px; /* Add space below the description */
+}
+
+.suggestion-actions {
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.suggestion-action {
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+  width: 300px;
+  display: flex;
+  align-items: center;
+  background-color: #bde0fe;
+  border-radius: 12px;
+  height: 60px;
+  cursor: pointer;
+}
+
+.suggestion-icon {
+  font-size: 16px;
+  color: #333;
+  height: 40px;
+  width: 40px;
+  background-color: #d9d9d9;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40px;
+  margin-top: 30px;
+  cursor: pointer;
+}
